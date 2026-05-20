@@ -74,6 +74,9 @@ npm run dev
 
 
 ---
+## Admin Login:
+EmailID : admin@gmail.com
+Password : admin1234
 
 ## Author
 
