@@ -1,16 +1,80 @@
-# React + Vite
+# Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Employee Management Dashboard is a React-based web application developed for managing employee records and departments. The application allows admins to create, update, and manage employee data with CRUD operations and includes responsive UI components and settings features.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+* Employee list management
+* Add new employees
+* Edit employee details
+* CRUD operations
+* Department-wise employee data
+* Search and management functionality
+* Dark mode support
+* Language settings
+* user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+
+---
+
+## Concepts Used
+
+* React Hooks
+* API Integration
+* Component-based Architecture
+* CRUD Operations
+* UI Design
+
+---
+
+## UI Components
+
+* Buttons
+* Input Fields
+* Modal Components
+* Dashboard Pages
+* Settings Panel
+
+---
+
+## Project Setup
+
+Install dependencies:
+
+```bash id="3jgk6m"
+npm install
+```
+
+Run the project:
+
+```bash id="n4uv8x"
+npm run dev
+```
+
+---
+
+## Project Highlights
+
+* Developed reusable React components for UI management
+* Implemented CRUD functionality for employee records
+* Added dark mode and language settings features
+* Integrated APIs for employee data handling
+
+
+---
+
+## Author
+
+Prajakta Kurle
