@@ -74,16 +74,19 @@ function EmpoyeeForm({ onClose, onSuccess }) {
             className="p-2 border mb-2 w-full"
             onChange={handleChange}
           />
-          <button className="bg-green-600 text-white px-4 py-2 rounded">
-            Create
-          </button>
-          <button
-            type="button"
-            onClick={onClose}
-            className="bg-gray-400 text-white px-4 py-2 rounded"
-          >
-            Cancel
-          </button>
+
+          <div className="flex gap-3">
+            <button className="bg-green-600 text-white px-4 py-2 rounded">
+              Create
+            </button>
+            <button
+              type="button"
+              onClick={onClose}
+              className="bg-gray-400 text-white px-4 py-2 rounded"
+            >
+              Cancel
+            </button>
+          </div>
         </form>
       </div>
     </div>
